@@ -236,6 +236,8 @@ img {
   gap: 2rem;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .testimonials__card {
@@ -269,6 +271,8 @@ img {
 
 .services__container {
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .services__title {
@@ -330,6 +334,8 @@ img {
   gap: 5rem;
   align-items: center;
   justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .mentorship__grid-content {
@@ -350,7 +356,8 @@ img {
 .mentorship__icons {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 8rem;
+  margin-top: 300px;
+  margin-bottom: 100px;
   gap: 2rem;
   justify-content: space-around;
   text-align: center;
@@ -376,10 +383,14 @@ img {
   padding: 6rem 2rem;
   background: var(--tertiary-color);
   text-align: center;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
 
 .screenshots__container {
   max-width: 1600px;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .screenshots__title {
@@ -413,6 +424,8 @@ img {
   background: #000 url("../images/download-background.png") center center/cover
     no-repeat;
   padding: 11.5rem 2rem 8rem;
+  margin-top: 300px;
+  margin-bottom: 300px;
 }
 
 .download__container {
@@ -493,7 +506,7 @@ img {
   justify-content: center;
 }
 
-/* Inner Header */
+/* Inner header */
 .inner-header {
   background: #000 url("../images/header-background.png") center center/cover
     no-repeat;
@@ -509,7 +522,8 @@ img {
 
 .pricing__title {
   font-size: 2.3rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -524,9 +538,10 @@ img {
 
 .pricing__card-box {
   background: rgba(255, 255, 255, 0.1);
-  padding: 2.5rem;
+  padding: 2rem;
   border-radius: 30px;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
+  max-width: 400px;
 }
 
 .pricing__card-title {
@@ -555,7 +570,7 @@ img {
 /* Pricing Notes */
 
 .pricing-notes {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
   color: #9f9caf;
   text-align: center;
 }
@@ -564,12 +579,12 @@ img {
 
 .details-features {
   background: var(--tertiary-color);
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
 }
 
 .details-features__title {
   font-size: 2.3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -598,13 +613,13 @@ img {
 
 .mentoring__section-title {
   font-size: 1.8rem;
-  margin-bottom: 1rem;
+  padding-bottom: 4rem;
   text-align: center;
 }
 
 .mentoring__video,
 .mentoring__audio {
-  padding: 3rem 2rem;
+  padding: 8rem 2rem;
   background-color: var(--tertiary-color);
   text-align: center;
 }
