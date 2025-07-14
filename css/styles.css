@@ -581,6 +581,31 @@ img {
     margin-bottom: 0.5rem ;
 }
 
+
+/* video and audio*/
+
+.mentoring__section-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.mentoring__video,
+.mentoring__audio {
+  padding: 3rem 2rem;
+  background-color: var(--tertiary-color);
+  text-align: center;
+}
+
+video,
+audio {
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
 /* Media Queries*/
 @media (max-width: 992px){
     
@@ -765,4 +790,23 @@ img {
         text-align: center;
     }
 
+    /* services */
+
+    .services__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    max-width: 400px;
+  }
+   .service i, .service img {
+    margin-bottom: 1rem;
+  }
 }
