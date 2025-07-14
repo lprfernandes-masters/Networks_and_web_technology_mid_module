@@ -1,345 +1,434 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Freelance backend developer for hire, specializing in .NET and Typescript development of custom websites and apis ">
-        <meta name="keywords" content="">
-        <meta name="author" content="Luis Fernandes">
-        <meta name="robots" content="index, follow">
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="icon" href="./images/favicon.ico">
-        <title>Freelance Backend Developer | Luis Fernandes</title>
-    </head>
-    <body>
-        <nav class="navbar navbar--scroll">
-    <div class="navbar__container container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Freelance backend developer for hire, specializing in .NET and Typescript development of custom websites and apis "
+    />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Luis Fernandes" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <title>Freelance Backend Developer | Luis Fernandes</title>
+  </head>
+  <body>
+    <nav class="navbar navbar--scroll">
+      <div class="navbar__container container">
         <!-- Logo -->
         <div class="navbar__logo">
-            <a href="index.html">
-                <img class="img__rounded" src="images/89696182.png" alt="portrait of Luis Fernandes">
-            </a>
+          <a href="index.html">
+            <img
+              class="img__rounded"
+              src="images/89696182.png"
+              alt="portrait of Luis Fernandes"
+            />
+          </a>
         </div>
 
         <!-- Desktop Menu -->
         <div class="navbar__menu">
-            <ul class="navbar__menu-list">
-                    <li class="navbar__menu-item">
-                        <a href="/index.html" class="navbar__menu-link">Home</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="/index.html#services" class="navbar__menu-link">Services</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="/index.html#testimonials" class="navbar__menu-link">Testimonials</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="/index.html#mentorship" class="navbar__menu-link">Mentorship</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="/index.html#about" class="navbar__menu-link">About</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="/index.html#contact" class="navbar__menu-link">Contact</a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="#" class="navbar__menu-link--primary">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="#" class="navbar__menu-link--primary">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="https://www.linkedin.com/in/lprfernandes/" class="navbar__menu-link--primary" target="_blank">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="navbar__menu-item">
-                        <a href="https://github.com/lprfernandes" class="navbar__menu-link--primary" target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </li>
-                </ul>
+          <ul class="navbar__menu-list">
+            <li class="navbar__menu-item">
+              <a href="/index.html" class="navbar__menu-link">Home</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/index.html#services" class="navbar__menu-link"
+                >Services</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/index.html#testimonials" class="navbar__menu-link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/index.html#mentorship" class="navbar__menu-link"
+                >Mentorship</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/index.html#about" class="navbar__menu-link">About</a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="/index.html#contact" class="navbar__menu-link"
+                >Contact</a
+              >
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-link--primary">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a href="#" class="navbar__menu-link--primary">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a
+                href="https://www.linkedin.com/in/lprfernandes/"
+                class="navbar__menu-link--primary"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="navbar__menu-item">
+              <a
+                href="https://github.com/lprfernandes"
+                class="navbar__menu-link--primary"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
         </div>
 
         <!-- Mobile toggle -->
-        <input type="checkbox" id="menu-toggle" class="navbar__toggle-checkbox" hidden>
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="navbar__toggle-checkbox"
+          hidden
+        />
         <label for="menu-toggle" class="navbar__mobile-menu-toggle">☰</label>
 
         <!-- Mobile menu-items -->
         <div class="navbar__mobile-menu-items">
-            <ul class="navbar__mobile-menu-list">
-                <li class="navbar__mobile-menu-item">
-                    <a href="index.html" class="navbar__mobile-menu-link">Home</a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="index.html#services" class="navbar__mobile-menu-link">Services</a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="index.html#testimonials" class="navbar__mobile-menu-link">Testimonials</a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="index.html#mentorship" class="navbar__mobile-menu-link">Mentorship</a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="index.html#about" class="navbar__mobile-menu-link">About</a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="index.html#contact" class="navbar__mobile-menu-link">Contact</a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="#" class="navbar__mobile-menu-link--primary">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="#" class="navbar__mobile-menu-link--primary">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="navbar__mobile-menu-item">
-                    <a href="https://github.com/lprfernandes" class="navbar__mobile-menu-link--primary" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-            </ul>
+          <ul class="navbar__mobile-menu-list">
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html" class="navbar__mobile-menu-link">Home</a>
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html#services" class="navbar__mobile-menu-link"
+                >Services</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html#testimonials" class="navbar__mobile-menu-link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html#mentorship" class="navbar__mobile-menu-link"
+                >Mentorship</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html#about" class="navbar__mobile-menu-link"
+                >About</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="index.html#contact" class="navbar__mobile-menu-link"
+                >Contact</a
+              >
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#" class="navbar__mobile-menu-link--primary">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a href="#" class="navbar__mobile-menu-link--primary">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="navbar__mobile-menu-item">
+              <a
+                href="https://github.com/lprfernandes"
+                class="navbar__mobile-menu-link--primary"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-    </div>
-</nav>
+      </div>
+    </nav>
 
-        <!-- Inner Header -->
-        <header class="inner-header">
-            <div class="inner-header__container container">
-                <h1 class="inner-header__title">Details</h1>
+    <!-- Inner Header -->
+    <header class="inner-header">
+      <div class="inner-header__container container">
+        <h1 class="inner-header__title">Details</h1>
+      </div>
+    </header>
+
+    <!-- Pricing -->
+    <section class="pricing">
+      <div class="pricing__container container">
+        <h2 class="pricing__title">Pricing Options</h2>
+        <div class="pricing__cards">
+          <!-- Card 1 -->
+          <div class="pricing__card">
+            <div class="pricing__card-box">
+              <h4 class="pricing__card-title">Starter Session</h4>
+              <h3 class="pricing__card-price">Free</h3>
+              <div class="pricing__card-body">
+                <ul class="pricing__card-list">
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    Perfect for a first contact or one-time doubt.
+                  </li>
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    One 15-minute Q&A session
+                  </li>
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    Intro guidance on learning path or career
+                  </li>
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    No commitment required
+                  </li>
+                </ul>
+              </div>
             </div>
-        </header>
-
-
-        <!-- Pricing -->
-        <section class="pricing">
-            <div class="pricing__container container">
-                <h2 class="pricing__title">Pricing Options</h2>
-                <div class="pricing__cards">
-                    <!-- Card 1 -->
-                    <div class="pricing__card">
-                        <div class="pricing__card-box ">
-                          <h4 class="pricing__card-title">Starter Session</h4>  
-                          <h3 class="pricing__card-price">Free</h3>
-                          <div class="pricing__card-body">
-                            <ul class="pricing__card-list">
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Perfect for a first contact or one-time doubt.
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    One 15-minute Q&A session
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Intro guidance on learning path or career
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    No commitment required
-                                </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <a href="#" class="pricing__card-button btn">Get Started</a>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="pricing__card">
-                        <div class="pricing__card-box ">
-                          <h4 class="pricing__card-title">Developer Mentorship</h4>  
-                          <h3 class="pricing__card-price">€49 / session</h3>
-                          <div class="pricing__card-body">
-                            <ul class="pricing__card-list">
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Ideal for developers seeking hands-on technical improvement.
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    60-minute live 1:1 session
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Code review, debugging, or architecture feedback
-                                </li>
-                                <li class="pricing__card-item">
-                                    <i class="fas fa-check"></i>
-                                    Career & project advice
-                                </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <a href="#" class="pricing__card-button btn">Book Now</a>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="pricing__card">
-                        <div class="pricing__card-box ">
-                          <h4 class="pricing__card-title">Ongoing Mentorship</h4>  
-                          <div class="pricing__card-top">
-                              <h3 class="pricing__card-price">€119 / month</h3>
-                              <div class="pricing__card-body">
-                                <ul class="pricing__card-list">
-                                    <li class="pricing__card-item">
-                                        <i class="fas fa-check"></i>
-                                        For committed professionals wanting long-term growth.
-                                    </li>
-                                    <li class="pricing__card-item">
-                                        <i class="fas fa-check"></i>
-                                        2x 60-minute sessions per month
-                                    </li>
-                                    <li class="pricing__card-item">
-                                        <i class="fas fa-check"></i>
-                                        Priority email support
-                                    </li>
-                                    <li class="pricing__card-item">
-                                        <i class="fas fa-check"></i>
-                                        Access to private learning materials
-                                    </li>
-                                </ul>
-                              </div>
-                          </div>
-                        </div>
-                        <a href="#" class="pricing__card-button btn">Subscribe</a>
-                    </div>
-                </div>
+            <a href="#" class="pricing__card-button btn">Get Started</a>
+          </div>
+          <!-- Card 2 -->
+          <div class="pricing__card">
+            <div class="pricing__card-box">
+              <h4 class="pricing__card-title">Developer Mentorship</h4>
+              <h3 class="pricing__card-price">€49 / session</h3>
+              <div class="pricing__card-body">
+                <ul class="pricing__card-list">
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    Ideal for developers seeking hands-on technical improvement.
+                  </li>
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    60-minute live 1:1 session
+                  </li>
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    Code review, debugging, or architecture feedback
+                  </li>
+                  <li class="pricing__card-item">
+                    <i class="fas fa-check"></i>
+                    Career & project advice
+                  </li>
+                </ul>
+              </div>
             </div>
-        </section>
-
-        <!-- Pricing Notes -->
-        <section class="pricing-notes">
-            <div class="pricing-notes__container container">
-                <p class="pricing-notes__text">Flexible scheduling – book sessions when it suits you.</p>
-                <p class="pricing-notes__text">All sessions are confidential and tailored to your needs.</p>
-                <p class="pricing-notes__text">Cancel or reschedule up to 24 hours in advance.</p>
+            <a href="#" class="pricing__card-button btn">Book Now</a>
+          </div>
+          <!-- Card 3 -->
+          <div class="pricing__card">
+            <div class="pricing__card-box">
+              <h4 class="pricing__card-title">Ongoing Mentorship</h4>
+              <div class="pricing__card-top">
+                <h3 class="pricing__card-price">€119 / month</h3>
+                <div class="pricing__card-body">
+                  <ul class="pricing__card-list">
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      For committed professionals wanting long-term growth.
+                    </li>
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      2x 60-minute sessions per month
+                    </li>
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      Priority email support
+                    </li>
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      Access to private learning materials
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </section>
+            <a href="#" class="pricing__card-button btn">Subscribe</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- video -->
-        <section class="mentoring__video">
-        <h2 class="mentoring__section-title">Watch an Intro to My Mentoring Approach</h2>
-            <video controls width="100%" poster="images/mentoring-poster.png">
-                <source src="media/mentoring-intro.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </section>
+    <!-- Pricing Notes -->
+    <section class="pricing-notes">
+      <div class="pricing-notes__container container">
+        <p class="pricing-notes__text">
+          Flexible scheduling – book sessions when it suits you.
+        </p>
+        <p class="pricing-notes__text">
+          All sessions are confidential and tailored to your needs.
+        </p>
+        <p class="pricing-notes__text">
+          Cancel or reschedule up to 24 hours in advance.
+        </p>
+      </div>
+    </section>
 
-        <!-- audio -->
-        <section class="mentoring__audio">
-            <h2 class="mentoring__section-title">Listen to Client Feedback</h2>
-            <audio controls>
-                <source src="media/client-testimonial.mp3" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio>
-        </section>
+    <!-- video -->
+    <section class="mentoring__video">
+      <h2 class="mentoring__section-title">
+        Watch an Intro to My Mentoring Approach
+      </h2>
+      <video controls width="100%" poster="images/mentoring-poster.png">
+        <source src="media/mentoring-intro.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </section>
 
-        <!-- Details Features -->
+    <!-- audio -->
+    <section class="mentoring__audio">
+      <h2 class="mentoring__section-title">Listen to Client Feedback</h2>
+      <audio controls>
+        <source src="media/client-testimonial.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
 
-        <section class="details-features">
-            <div class="details-features__container container">
-                <h2 class="details-features__title"></h2>
-                <div class="details-features__list">
-                    <!-- Item 1-->
-                    <div class="details-features__list-item">
-                        <i class="fas fa-rocket fa-4x"></i>
-                        <div class="details-features__list-text">
-                            <h3 class="details-features__list-title">Tailored Guidance</h3>
-                            <p class="details-features__list-description">Get personalized support based on your goals, skill level, and tech stack. Every session is shaped to bring clarity and action.</p>
-                        </div>
-                    </div>
-                    <!-- Item 2-->
-                    <div class="details-features__list-item">
-                        <i class="fas fa-user fa-4x"></i>
-                        <div class="details-features__list-text">
-                            <h3 class="details-features__list-title">Live Coding & Feedback</h3>
-                            <p class="details-features__list-description">Work on real code together — from architecture to debugging — and get actionable, professional feedback.</p>
-                        </div>
-                    </div>
-                    <!-- Item 3-->
-                    <div class="details-features__list-item">
-                        <i class="fas fa-code fa-4x"></i>
-                        <div class="details-features__list-text">
-                            <h3 class="details-features__list-title">Practical & Tool-Focused</h3>
-                            <p class="details-features__list-description">Learn best practices for .NET, C#, Git, APIs, and more. Everything is rooted in real-world usage, not just theory.</p>
-                        </div>
-                    </div>
-                    <!-- Item 4-->
-                    <div class="details-features__list-item">
-                        <i class="fas fa-compass fa-4x"></i>
-                        <div class="details-features__list-text">
-                            <h3 class="details-features__list-title">Skill Progression Planning</h3>
-                            <p class="details-features__list-description">Get a custom learning roadmap so you know exactly what to focus on next and why.</p>
-                        </div>
-                    </div>
-                    <!-- Item 5-->
-                    <div class="details-features__list-item">
-                        <i class="fas fa-chart-pie fa-4x"></i>
-                        <div class="details-features__list-text">
-                            <h3 class="details-features__list-title">Career & Project Advice</h3>
-                            <p class="details-features__list-description">Whether it’s preparing for interviews or growing your freelance/employee role, you'll receive honest and experience-based input.</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- Details Features -->
+
+    <section class="details-features">
+      <div class="details-features__container container">
+        <h2 class="details-features__title"></h2>
+        <div class="details-features__list">
+          <!-- Item 1-->
+          <div class="details-features__list-item">
+            <i class="fas fa-rocket fa-4x"></i>
+            <div class="details-features__list-text">
+              <h3 class="details-features__list-title">Tailored Guidance</h3>
+              <p class="details-features__list-description">
+                Get personalized support based on your goals, skill level, and
+                tech stack. Every session is shaped to bring clarity and action.
+              </p>
             </div>
-        </section>
-
-        
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="footer__container container">
-                <div class="footer__about">
-                    <h4 class="footer__title">About me</h4>
-                    <p class="footer__description">
-                        I'm a passionate .NET developer focused on building clean, efficient, and maintainable backend solutions. I help teams and businesses automate, scale, and deliver real value through technology.   
-                    </p>
-                </div>
-                <div class="footer__links">
-                    <h4 class="footer__title">Quick Links</h4>
-                    <ul class="footer__links-list">
-                        <li class="footer__links-item">
-                            <a href="/index.html" class="footer__links-link">Home</a>
-                        </li>
-                        <li class="footer__links-item">
-                            <a href="/index.html#testimonials" class="footer__links-link">Testimonials</a>
-                        </li>
-                        <li class="footer__links-item">
-                            <a href="/index.html#services" class="footer__links-link">Services</a>
-                        </li>
-                        <li class="footer__links-item">
-                            <a href="/index.html#testimonials" class="footer__links-link">Testimonials</a>
-                        </li>
-                           <li class="footer__links-item">
-                            <a href="/index.html#about" class="footer__links-link">About</a>
-                        </li>
-                        </li>
-                           <li class="footer__links-item">
-                            <a href="/index.html#contact" class="footer__links-link">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__social">
-                    <a href="#" class="footer__social-link">
-                        <i class="fa-brands fa-facebook fa-3x"></i>
-                    </a>
-                    <a href="#" class="footer__social-link">
-                        <i class="fa-brands fa-twitter fa-3x"></i>
-                    </a>
-                    <a href="https://github.com/lprfernandes" class="footer__social-link" target="_blank">
-                        <i class="fa-brands fa-github fa-3x"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/lprfernandes/" class="footer__social-link" target="_blank">
-                        <i class="fa-brands fa-linkedin fa-3x"></i>
-                    </a>
-                </div>
+          </div>
+          <!-- Item 2-->
+          <div class="details-features__list-item">
+            <i class="fas fa-user fa-4x"></i>
+            <div class="details-features__list-text">
+              <h3 class="details-features__list-title">
+                Live Coding & Feedback
+              </h3>
+              <p class="details-features__list-description">
+                Work on real code together — from architecture to debugging —
+                and get actionable, professional feedback.
+              </p>
             </div>
-        </footer>
-    </body>
+          </div>
+          <!-- Item 3-->
+          <div class="details-features__list-item">
+            <i class="fas fa-code fa-4x"></i>
+            <div class="details-features__list-text">
+              <h3 class="details-features__list-title">
+                Practical & Tool-Focused
+              </h3>
+              <p class="details-features__list-description">
+                Learn best practices for .NET, C#, Git, APIs, and more.
+                Everything is rooted in real-world usage, not just theory.
+              </p>
+            </div>
+          </div>
+          <!-- Item 4-->
+          <div class="details-features__list-item">
+            <i class="fas fa-compass fa-4x"></i>
+            <div class="details-features__list-text">
+              <h3 class="details-features__list-title">
+                Skill Progression Planning
+              </h3>
+              <p class="details-features__list-description">
+                Get a custom learning roadmap so you know exactly what to focus
+                on next and why.
+              </p>
+            </div>
+          </div>
+          <!-- Item 5-->
+          <div class="details-features__list-item">
+            <i class="fas fa-chart-pie fa-4x"></i>
+            <div class="details-features__list-text">
+              <h3 class="details-features__list-title">
+                Career & Project Advice
+              </h3>
+              <p class="details-features__list-description">
+                Whether it’s preparing for interviews or growing your
+                freelance/employee role, you'll receive honest and
+                experience-based input.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__about">
+          <h4 class="footer__title">About me</h4>
+          <p class="footer__description">
+            I'm a passionate .NET developer focused on building clean,
+            efficient, and maintainable backend solutions. I help teams and
+            businesses automate, scale, and deliver real value through
+            technology.
+          </p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__title">Quick Links</h4>
+          <ul class="footer__links-list">
+            <li class="footer__links-item">
+              <a href="/index.html" class="footer__links-link">Home</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="/index.html#testimonials" class="footer__links-link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a href="/index.html#services" class="footer__links-link"
+                >Services</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a href="/index.html#testimonials" class="footer__links-link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="footer__links-item">
+              <a href="/index.html#about" class="footer__links-link">About</a>
+            </li>
+            <li class="footer__links-item">
+              <a href="/index.html#contact" class="footer__links-link"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-facebook fa-3x"></i>
+          </a>
+          <a href="#" class="footer__social-link">
+            <i class="fa-brands fa-twitter fa-3x"></i>
+          </a>
+          <a
+            href="https://github.com/lprfernandes"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github fa-3x"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lprfernandes/"
+            class="footer__social-link"
+            target="_blank"
+          >
+            <i class="fa-brands fa-linkedin fa-3x"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
