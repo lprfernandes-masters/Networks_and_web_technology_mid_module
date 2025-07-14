@@ -12,101 +12,103 @@
         <title>Freelance Backend Developer | Luis Fernandes</title>
     </head>
     <body>
-        <navbar class="navbar navbar--scroll">
-            <div class="navbar__container container">
-                <div class="navbar__logo">
-                    <a href="index.html">
-                        <img class="img__rounded" src="images\89696182.png" alt="portrait of Luis Fernandes">
+        <nav class="navbar navbar--scroll">
+    <div class="navbar__container container">
+        <!-- Logo -->
+        <div class="navbar__logo">
+            <a href="index.html">
+                <img class="img__rounded" src="images/89696182.png" alt="portrait of Luis Fernandes">
+            </a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <div class="navbar__menu">
+            <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item">
+                        <a href="/index.html" class="navbar__menu-link">Home</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="/index.html#services" class="navbar__menu-link">Services</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="/index.html#testimonials" class="navbar__menu-link">Testimonials</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="/index.html#mentorship" class="navbar__menu-link">Mentorship</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="/index.html#about" class="navbar__menu-link">About</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="/index.html#contact" class="navbar__menu-link">Contact</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link--primary">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link--primary">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="https://www.linkedin.com/in/lprfernandes/" class="navbar__menu-link--primary" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="https://github.com/lprfernandes" class="navbar__menu-link--primary" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+
+        <!-- Mobile toggle -->
+        <input type="checkbox" id="menu-toggle" class="navbar__toggle-checkbox" hidden>
+        <label for="menu-toggle" class="navbar__mobile-menu-toggle">☰</label>
+
+        <!-- Mobile menu-items -->
+        <div class="navbar__mobile-menu-items">
+            <ul class="navbar__mobile-menu-list">
+                <li class="navbar__mobile-menu-item">
+                    <a href="index.html" class="navbar__mobile-menu-link">Home</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="index.html#services" class="navbar__mobile-menu-link">Services</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="index.html#testimonials" class="navbar__mobile-menu-link">Testimonials</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="index.html#mentorship" class="navbar__mobile-menu-link">Mentorship</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="index.html#about" class="navbar__mobile-menu-link">About</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="index.html#contact" class="navbar__mobile-menu-link">Contact</a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="#" class="navbar__mobile-menu-link--primary">
+                        <i class="fa-brands fa-facebook"></i>
                     </a>
-                </div>
-                <div class="navbar__menu">
-                    <ul class="navbar__menu-list">
-                        <li class="navbar__menu-item">
-                            <a href="/index.html" class="navbar__menu-link">Home</a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="/index.html#services" class="navbar__menu-link">Services</a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="/index.html#testimonials" class="navbar__menu-link">Testimonials</a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="/index.html#mentorship" class="navbar__menu-link">Mentorship</a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="/index.html#about" class="navbar__menu-link">About</a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="/index.html#contact" class="navbar__menu-link">Contact</a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="#" class="navbar__menu-link--primary">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </li>
-                        <li class="navbar__menu-item">
-                            <a href="#" class="navbar__menu-link--primary">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                         <li class="navbar__menu-item">
-                            <a href="https://www.linkedin.com/in/lprfernandes/" class="navbar__menu-link--primary" target="_blank">
-                                <i class="fa-brands fa-linkedin"></i>
-                            </a>
-                        <li class="navbar__menu-item">
-                            <a href="https://github.com/lprfernandes" class="navbar__menu-link--primary" target="_blank">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Mobile Menu & Hamburguer Icon   -->
-                <div class="navbar__mobile-menu">
-                    <div class="navbar__mobile-menu-toggle">
-                        <i class="fas fa-bars fa-2x"></i>
-                    </div>
-                    <!-- Mobile Menu Items-->
-                    <div class="navbar__mobile-menu-items">
-                        <ul class="navbar__mobile-menu-list">
-                            <li class="navbar__mobile-menu-item">
-                                <a href="index.html" class="navbar__mobile-menu-link">Home</a>
-                            </li>
-          
-                            <li class="navbar__mobile-menu-item">
-                                <a href="index.html#services" class="navbar__mobile-menu-link">Services</a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="index.html#testimonials" class="navbar__mobile-menu-link">Testimonials</a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="index.html#mentorship" class="navbar__mobile-menu-link">Mentorship</a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="index.html#about" class="navbar__mobile-menu-link">About</a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="index.html#contact" class="navbar__mobile-menu-link">Contact</a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="#" class="navbar__mobile-menu-link--primary">
-                                    <i class="fa-brands fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="#" class="navbar__mobile-menu-link--primary">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="navbar__mobile-menu-item">
-                                <a href="#" class="navbar__mobile-menu-link--primary">
-                                    <i class="fa-brands fa-github"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </navbar>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="#" class="navbar__mobile-menu-link--primary">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="navbar__mobile-menu-item">
+                    <a href="https://github.com/lprfernandes" class="navbar__mobile-menu-link--primary" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
         <!-- Inner Header -->
         <header class="inner-header">
