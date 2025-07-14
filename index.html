@@ -18,7 +18,11 @@
     <title>Freelance Backend Developer | Luis Fernandes</title>
   </head>
   <body>
-    <nav class="navbar navbar--scroll">
+    <nav
+      class="navbar navbar--scroll"
+      role="navigation"
+      aria-label="Main navigation"
+    >
       <div class="navbar__container container">
         <!-- Logo -->
         <div class="navbar__logo">
@@ -61,12 +65,20 @@
               >
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
+              <a
+                href="#"
+                class="navbar__menu-link--primary"
+                aria-label="Facebook"
+              >
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
+              <a
+                href="#"
+                class="navbar__menu-link--primary"
+                aria-label="Twitter"
+              >
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
@@ -75,6 +87,7 @@
                 href="https://www.linkedin.com/in/lprfernandes/"
                 class="navbar__menu-link--primary"
                 target="_blank"
+                aria-label="Linkedin"
               >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
@@ -84,6 +97,7 @@
                 href="https://github.com/lprfernandes"
                 class="navbar__menu-link--primary"
                 target="_blank"
+                aria-label="Github"
               >
                 <i class="fa-brands fa-github"></i>
               </a>
@@ -154,327 +168,333 @@
         </div>
       </div>
     </nav>
-
-    <!-- Hero -->
-    <header class="hero">
-      <div class="hero__container container">
-        <div class="hero__content">
-          <h1 class="hero__title">
-            Your <span class="hero__title--primary">.NET</span> developer
-          </h1>
-          <p class="hero__description">
-            Building clean, efficient, and scalable backend solutions with C#,
-            .NET, and modern technologies. I help businesses automate,
-            streamline, and grow by delivering reliable software that solves
-            real-world problems.
-          </p>
-          <div class="hero__buttons">
-            <a href="#download" class="hero__button btn"> Find out more </a>
-          </div>
-        </div>
-        <div class="hero__image">
-          <img
-            src="/images/infographic.png"
-            alt="multiple technologies present in the developers catalog"
-          />
-        </div>
-        <div class="hero__visual">
-          <img
-            src="images/dashboard-preview.png"
-            alt="Dashboard Preview"
-            class="hero__image"
-          />
-          <img
-            src="images/code-review.png"
-            alt="Code Review in Action"
-            class="hero__image"
-          />
-        </div>
-      </div>
-    </header>
-    <!-- services-->
-    <section class="services" id="services">
-      <div class="services__container container">
-        <div class="services__content">
-          <h2 class="services__title">Services</h2>
-          <p class="services__description">
-            Crafting smart backend solutions that empower modern businesses
-          </p>
-          <div class="services__grid">
-            <!-- grid column1 -->
-            <div class="services__grid-column services__grid-column-left">
-              <!-- grid item1 -->
-              <div class="services__grid-item">
-                <div class="services__grid-item-text">
-                  <h4 class="services__grid-item-text-title">
-                    Real-Time Integrations
-                  </h4>
-                  <p class="services__grid-item-text-description">
-                    Seamless access to up-to-the-minute data across systems and
-                    APIs.
-                  </p>
-                </div>
-                <div class="services__grid-item-icon">
-                  <i class="fas fa-bolt fa-4x"></i>
-                </div>
-              </div>
-              <!-- grid item2 -->
-              <div class="services__grid-item">
-                <div class="services__grid-item-text">
-                  <h4 class="services__grid-item-text-title">
-                    Custom Dashboards
-                  </h4>
-                  <p class="services__grid-item-text-description">
-                    Interactive, visually-rich interfaces for data-driven
-                    decisions.
-                  </p>
-                </div>
-                <div class="services__grid-item-icon">
-                  <i class="fas fa-chart-bar fa-4x"></i>
-                </div>
-              </div>
-              <!-- grid item3 -->
-              <div class="services__grid-item">
-                <div class="services__grid-item-text">
-                  <h4 class="services__grid-item-text-title">
-                    Flexible Architecture
-                  </h4>
-                  <p class="services__grid-item-text-description">
-                    Scalable and modular backend designs tailored to your needs.
-                  </p>
-                </div>
-                <div class="services__grid-item-icon">
-                  <i class="fas fa-cubes fa-4x"></i>
-                </div>
-              </div>
-            </div>
-            <!-- grid column 2 -->
-            <div class="services__grid-column services__grid-column-center">
-              <img src="/..." alt="" />
-            </div>
-            <!-- grid column 3 -->
-            <div class="services__grid-column services__grid-column-right">
-              <!-- grid item1 -->
-              <div class="services__grid-item">
-                <div class="services__grid-item-text">
-                  <h4 class="services__grid-item-text-title">
-                    Scheduling & Automation
-                  </h4>
-                  <p class="services__grid-item-text-description">
-                    Powerful background tasks, scheduling, and calendar
-                    integrations.
-                  </p>
-                </div>
-                <div class="services__grid-item-icon">
-                  <i class="fas fa-robot fa-4x"></i>
-                </div>
-              </div>
-              <!-- grid item2 -->
-              <div class="services__grid-item">
-                <div class="services__grid-item-text">
-                  <h4 class="services__grid-item-text-title">
-                    Optimized Performance
-                  </h4>
-                  <p class="services__grid-item-text-description">
-                    Clean, fast, and maintainable code that ensures
-                    responsiveness.
-                  </p>
-                </div>
-                <div class="services__grid-item-icon">
-                  <i class="fas fa-rocket fa-4x"></i>
-                </div>
-              </div>
-              <!-- grid item3 -->
-              <div class="services__grid-item">
-                <div class="services__grid-item-text">
-                  <h4 class="services__grid-item-text-title">
-                    Solid Foundations
-                  </h4>
-                  <p class="services__grid-item-text-description">
-                    Built with best practices in C#, .NET, and modern deployment
-                    tools.
-                  </p>
-                </div>
-                <div class="services__grid-item-icon">
-                  <i class="fas fa-landmark fa-4x"></i>
-                </div>
-              </div>
+    <main id="main-content" role="main">
+      <!-- Hero -->
+      <header class="hero">
+        <div class="hero__container container">
+          <div class="hero__content">
+            <h1 class="hero__title">
+              Your <span class="hero__title--primary">.NET</span> developer
+            </h1>
+            <p class="hero__description">
+              Building clean, efficient, and scalable backend solutions with C#,
+              .NET, and modern technologies. I help businesses automate,
+              streamline, and grow by delivering reliable software that solves
+              real-world problems.
+            </p>
+            <div class="hero__buttons">
+              <a href="#download" class="hero__button btn"> Find out more </a>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <!--Testimonials-->
-    <section class="testimonials" id="testimonials">
-      <div class="testimonials__container container">
-        <div class="testimonials__card">
-          <div class="testimonials__image">
-            <img src="./images/testimonial-1.png" alt="Testimonial 1" />
-          </div>
-          <div class="testimonials__card--content">
-            <h3 class="testimonials__card-title">Anna Keller</h3>
-            <h4 class="testimonials__card-role">Marketing Consultant</h4>
-            <p class="testimonials__card-text">
-              “Working with this developer was an absolute game-changer. He
-              brought clarity to a very complex backend integration and
-              delivered faster than expected. I couldn’t be happier with the
-              results.”
-            </p>
-          </div>
-        </div>
-        <div class="testimonials__card">
-          <div class="testimonials__image">
-            <img src="./images/testimonial-2.png" alt="Testimonial 2" />
-          </div>
-          <div class="testimonials__card--content">
-            <h3 class="testimonials__card-title">David Lemoine</h3>
-            <h4 class="testimonials__card-role">Operations Lead</h4>
-            <p class="testimonials__card-text">
-              “Super reliable, communicative, and precise. Every solution was
-              thoughtfully designed and well-tested. He felt like a true part of
-              our team from day one.”
-            </p>
-          </div>
-        </div>
-        <div class="testimonials__card">
-          <div class="testimonials__image">
-            <img src="./images/testimonial-3.png" alt="Testimonial 3" />
-          </div>
-          <div class="testimonials__card--content">
-            <h3 class="testimonials__card-title">Laura Winter</h3>
-            <h4 class="testimonials__card-role">Project Manager</h4>
-            <p class="testimonials__card-text">
-              “We needed someone who could untangle legacy systems and modernize
-              them. Not only was that done flawlessly, but we also got valuable
-              recommendations that saved us time and money in the long run.”
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Mentorship -->
-    <section class="mentorship" id="mentorship">
-      <div class="mentorship__container container">
-        <div class="mentorship__grid">
-          <!-- Grid item 1-->
-          <div class="mentorship__grid-image">
+          <div class="hero__image">
             <img
-              src="./images/mentoring.png"
-              alt="a developer being mentored"
+              src="/images/infographic.png"
+              alt="multiple technologies present in the developers catalog"
             />
           </div>
-          <!-- Grid item 2-->
-          <div class="mentorship__grid-content">
-            <h3 class="mentorship__grid-heading">1:1 Mentorship Session</h3>
-            <ul class="mentorship__grid-description">
-              <li>Personalized 60-minute deep dive</li>
-              <li>Live video call</li>
-              <li>Live coding, code reviews, feedback</li>
-              <li>Career, project, or roadmap advice</li>
-            </ul>
-            <a href="mentorship.html" class="mentorship__grid-button btn"
-              >More</a
-            >
-          </div>
-          <!-- Grid item 3-->
-          <div class="mentorship__grid-image">
-            <img src="./images/consultation.png" alt="consulting developer" />
-          </div>
-          <!-- Grid item 4-->
-          <div class="mentorship__grid-content">
-            <h3 class="mentorship__grid-heading">Technical Consultation</h3>
-            <ul class="mentorship__grid-description">
-              <li>Solve high-level technical challenges</li>
-              <li>Architecture & system review</li>
-              <li>LLM agent feedback & API planning</li>
-              <li>Optimization & scalability advice</li>
-            </ul>
-            <a href="mentorship.html" class="mentorship__grid-button btn"
-              >More</a
-            >
+          <aside class="hero__visual">
+            <img
+              src="images/dashboard-preview.png"
+              alt="Dashboard preview"
+              class="hero__image"
+            />
+            <img
+              src="images/code-review.png"
+              alt="Code review in action"
+              class="hero__image"
+            />
+          </aside>
+        </div>
+      </header>
+      <!-- services-->
+      <section class="services" id="services" aria-labelledby="services-title">
+        <div class="services__container container">
+          <div class="services__content">
+            <h2 id="services-title" class="services__title">Services</h2>
+            <p class="services__description">
+              Crafting smart backend solutions that empower modern businesses
+            </p>
+            <div class="services__grid">
+              <!-- grid column1 -->
+              <div class="services__grid-column services__grid-column-left">
+                <!-- grid item1 -->
+                <div class="services__grid-item">
+                  <div class="services__grid-item-text">
+                    <h4 class="services__grid-item-text-title">
+                      Real-Time Integrations
+                    </h4>
+                    <p class="services__grid-item-text-description">
+                      Seamless access to up-to-the-minute data across systems
+                      and APIs.
+                    </p>
+                  </div>
+                  <div class="services__grid-item-icon">
+                    <i class="fas fa-bolt fa-4x"></i>
+                  </div>
+                </div>
+                <!-- grid item2 -->
+                <div class="services__grid-item">
+                  <div class="services__grid-item-text">
+                    <h4 class="services__grid-item-text-title">
+                      Custom Dashboards
+                    </h4>
+                    <p class="services__grid-item-text-description">
+                      Interactive, visually-rich interfaces for data-driven
+                      decisions.
+                    </p>
+                  </div>
+                  <div class="services__grid-item-icon">
+                    <i class="fas fa-chart-bar fa-4x"></i>
+                  </div>
+                </div>
+                <!-- grid item3 -->
+                <div class="services__grid-item">
+                  <div class="services__grid-item-text">
+                    <h4 class="services__grid-item-text-title">
+                      Flexible Architecture
+                    </h4>
+                    <p class="services__grid-item-text-description">
+                      Scalable and modular backend designs tailored to your
+                      needs.
+                    </p>
+                  </div>
+                  <div class="services__grid-item-icon">
+                    <i class="fas fa-cubes fa-4x"></i>
+                  </div>
+                </div>
+              </div>
+              <!-- grid column 2 -->
+              <div class="services__grid-column services__grid-column-center">
+                <img src="/..." alt="" />
+              </div>
+              <!-- grid column 3 -->
+              <div class="services__grid-column services__grid-column-right">
+                <!-- grid item1 -->
+                <div class="services__grid-item">
+                  <div class="services__grid-item-text">
+                    <h4 class="services__grid-item-text-title">
+                      Scheduling & Automation
+                    </h4>
+                    <p class="services__grid-item-text-description">
+                      Powerful background tasks, scheduling, and calendar
+                      integrations.
+                    </p>
+                  </div>
+                  <div class="services__grid-item-icon">
+                    <i class="fas fa-robot fa-4x"></i>
+                  </div>
+                </div>
+                <!-- grid item2 -->
+                <div class="services__grid-item">
+                  <div class="services__grid-item-text">
+                    <h4 class="services__grid-item-text-title">
+                      Optimized Performance
+                    </h4>
+                    <p class="services__grid-item-text-description">
+                      Clean, fast, and maintainable code that ensures
+                      responsiveness.
+                    </p>
+                  </div>
+                  <div class="services__grid-item-icon">
+                    <i class="fas fa-rocket fa-4x"></i>
+                  </div>
+                </div>
+                <!-- grid item3 -->
+                <div class="services__grid-item">
+                  <div class="services__grid-item-text">
+                    <h4 class="services__grid-item-text-title">
+                      Solid Foundations
+                    </h4>
+                    <p class="services__grid-item-text-description">
+                      Built with best practices in C#, .NET, and modern
+                      deployment tools.
+                    </p>
+                  </div>
+                  <div class="services__grid-item-icon">
+                    <i class="fas fa-landmark fa-4x"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+      <!--Testimonials-->
+      <section class="testimonials" id="testimonials">
+        <div class="testimonials__container container">
+          <div class="testimonials__card">
+            <div class="testimonials__image">
+              <img src="./images/testimonial-1.png" alt="Testimonial 1" />
+            </div>
+            <div class="testimonials__card--content">
+              <h3 class="testimonials__card-title">Anna Keller</h3>
+              <h4 class="testimonials__card-role">Marketing Consultant</h4>
+              <p class="testimonials__card-text">
+                “Working with this developer was an absolute game-changer. He
+                brought clarity to a very complex backend integration and
+                delivered faster than expected. I couldn’t be happier with the
+                results.”
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <div class="testimonials__image">
+              <img src="./images/testimonial-2.png" alt="Testimonial 2" />
+            </div>
+            <div class="testimonials__card--content">
+              <h3 class="testimonials__card-title">David Lemoine</h3>
+              <h4 class="testimonials__card-role">Operations Lead</h4>
+              <p class="testimonials__card-text">
+                “Super reliable, communicative, and precise. Every solution was
+                thoughtfully designed and well-tested. He felt like a true part
+                of our team from day one.”
+              </p>
+            </div>
+          </div>
+          <div class="testimonials__card">
+            <div class="testimonials__image">
+              <img src="./images/testimonial-3.png" alt="Testimonial 3" />
+            </div>
+            <div class="testimonials__card--content">
+              <h3 class="testimonials__card-title">Laura Winter</h3>
+              <h4 class="testimonials__card-role">Project Manager</h4>
+              <p class="testimonials__card-text">
+                “We needed someone who could untangle legacy systems and
+                modernize them. Not only was that done flawlessly, but we also
+                got valuable recommendations that saved us time and money in the
+                long run.”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Mentorship -->
+      <section class="mentorship" id="mentorship">
+        <div class="mentorship__container container">
+          <div class="mentorship__grid">
+            <!-- Grid item 1-->
+            <div class="mentorship__grid-image">
+              <img
+                src="./images/mentoring.png"
+                alt="a developer being mentored"
+              />
+            </div>
+            <!-- Grid item 2-->
+            <div class="mentorship__grid-content">
+              <h3 class="mentorship__grid-heading">1:1 Mentorship Session</h3>
+              <ul class="mentorship__grid-description">
+                <li>Personalized 60-minute deep dive</li>
+                <li>Live video call</li>
+                <li>Live coding, code reviews, feedback</li>
+                <li>Career, project, or roadmap advice</li>
+              </ul>
+              <a href="mentorship.html" class="mentorship__grid-button btn"
+                >More</a
+              >
+            </div>
+            <!-- Grid item 3-->
+            <div class="mentorship__grid-image">
+              <img src="./images/consultation.png" alt="consulting developer" />
+            </div>
+            <!-- Grid item 4-->
+            <div class="mentorship__grid-content">
+              <h3 class="mentorship__grid-heading">Technical Consultation</h3>
+              <ul class="mentorship__grid-description">
+                <li>Solve high-level technical challenges</li>
+                <li>Architecture & system review</li>
+                <li>LLM agent feedback & API planning</li>
+                <li>Optimization & scalability advice</li>
+              </ul>
+              <a href="mentorship.html" class="mentorship__grid-button btn"
+                >More</a
+              >
+            </div>
+          </div>
 
-        <!--icons-->
-        <div class="mentorship__icons">
-          <div class="mentorship__icons-item">
-            <i class="fas fa-users fa-4x"></i>
-            <div class="mentorship__icons-amount">120</div>
-            <h4 class="mentorship__icons-title">Happy Customers</h4>
-          </div>
-          <div class="mentorship__icons-item">
-            <i class="fas fa-check-circle fa-4x"></i>
-            <div class="mentorship__icons-amount">585</div>
-            <h4 class="mentorship__icons-title">Issues solved</h4>
-          </div>
-          <div class="mentorship__icons-item">
-            <i class="fas fa-star fa-4x"></i>
-            <div class="mentorship__icons-amount">78</div>
-            <h4 class="mentorship__icons-title">Great Reviews</h4>
-          </div>
-          <div class="mentorship__icons-item">
-            <i class="fas fa-flag-checkered fa-4x"></i>
-            <div class="mentorship__icons-amount">42</div>
-            <h4 class="mentorship__icons-title">Successful Projects</h4>
-          </div>
-          <div class="mentorship__icons-item">
-            <i class="fas fa-comment fa-4x"></i>
-            <div class="mentorship__icons-amount">78</div>
-            <h4 class="mentorship__icons-title">Mentions</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Screenshots -->
-    <section class="screenshots" id="screenshots">
-      <div class="screenshots__container container">
-        <div class="screenshots__content">
-          <h2 class="screenshots__title">Screenshots</h2>
-          <div class="screenshots__images">
-            <img src="./images/screenshot1.png" alt="Screenshot app 1" />
-            <img src="./images/screenshot2.png" alt="Screenshot app 2" />
-            <img src="./images/screenshot3.png" alt="Screenshot app 3" />
-            <img src="./images/screenshot4.png" alt="Screenshot app 4" />
-            <img src="./images/screenshot5.png" alt="Screenshot app 5" />
+          <!--icons-->
+          <div class="mentorship__icons">
+            <div class="mentorship__icons-item">
+              <i class="fas fa-users fa-4x"></i>
+              <div class="mentorship__icons-amount">120</div>
+              <h4 class="mentorship__icons-title">Happy Customers</h4>
+            </div>
+            <div class="mentorship__icons-item">
+              <i class="fas fa-check-circle fa-4x"></i>
+              <div class="mentorship__icons-amount">585</div>
+              <h4 class="mentorship__icons-title">Issues solved</h4>
+            </div>
+            <div class="mentorship__icons-item">
+              <i class="fas fa-star fa-4x"></i>
+              <div class="mentorship__icons-amount">78</div>
+              <h4 class="mentorship__icons-title">Great Reviews</h4>
+            </div>
+            <div class="mentorship__icons-item">
+              <i class="fas fa-flag-checkered fa-4x"></i>
+              <div class="mentorship__icons-amount">42</div>
+              <h4 class="mentorship__icons-title">Successful Projects</h4>
+            </div>
+            <div class="mentorship__icons-item">
+              <i class="fas fa-comment fa-4x"></i>
+              <div class="mentorship__icons-amount">78</div>
+              <h4 class="mentorship__icons-title">Mentions</h4>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Download -->
-    <section class="download" id="download">
-      <div class="download__container container">
-        <div class="download__content">
-          <p class="download__description">
-            Download my cv and portfolio to see the benefits and prices of my
-            catalog
-          </p>
-          <div class="download__buttons">
-            <a
-              href="./documents/Luis_Fernandes_Resume_EN.pdf"
-              class="download__button btn"
-              target="_blank"
-            >
-              <i class="fa-brands fa-pdf">My CV</i>
-            </a>
-            <a
-              href="./documents/Luis_Fernandes_Resume_EN.pdf"
-              class="download__button btn"
-              target="_blank"
-            >
-              <i class="fa-brands fa-pdf">Price Catalog</i>
-            </a>
+      </section>
+      <!-- Screenshots -->
+      <section
+        class="screenshots"
+        id="screenshots"
+        aria-labelledby="screenshots-title"
+      >
+        <div class="screenshots__container container">
+          <div class="screenshots__content">
+            <h2 id="screenshots-title" class="screenshots__title">
+              Screenshots
+            </h2>
+            <div class="screenshots__images">
+              <img src="./images/screenshot1.png" alt="Screenshot app 1" />
+              <img src="./images/screenshot2.png" alt="Screenshot app 2" />
+              <img src="./images/screenshot3.png" alt="Screenshot app 3" />
+              <img src="./images/screenshot4.png" alt="Screenshot app 4" />
+              <img src="./images/screenshot5.png" alt="Screenshot app 5" />
+            </div>
           </div>
         </div>
-        <div class="download__image">
-          <img src="./images/pdf.png" alt="Download pdf" />
+      </section>
+      <!-- Download -->
+      <section class="download" id="download">
+        <div class="download__container container">
+          <div class="download__content">
+            <p class="download__description">
+              Download my cv and portfolio to see the benefits and prices of my
+              catalog
+            </p>
+            <div class="download__buttons">
+              <a
+                href="./documents/Luis_Fernandes_Resume_EN.pdf"
+                class="download__button btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-pdf">My CV</i>
+              </a>
+              <a
+                href="./documents/Luis_Fernandes_Resume_EN.pdf"
+                class="download__button btn"
+                target="_blank"
+              >
+                <i class="fa-brands fa-pdf">Price Catalog</i>
+              </a>
+            </div>
+          </div>
+          <div class="download__image">
+            <img src="./images/pdf.png" alt="Download pdf" />
+          </div>
         </div>
-      </div>
-    </section>
-
+      </section>
+    </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="footer__container container">
         <div class="footer__about">
           <h4 class="footer__title">About me</h4>
@@ -517,16 +537,17 @@
           </ul>
         </div>
         <div class="footer__social">
-          <a href="#" class="footer__social-link">
+          <a href="#" class="footer__social-link" aria-label="Facebook">
             <i class="fa-brands fa-facebook fa-3x"></i>
           </a>
-          <a href="#" class="footer__social-link">
+          <a href="#" class="footer__social-link" aria-label="Twitter">
             <i class="fa-brands fa-twitter fa-3x"></i>
           </a>
           <a
             href="https://github.com/lprfernandes"
             class="footer__social-link"
             target="_blank"
+            aria-label="Github"
           >
             <i class="fa-brands fa-github fa-3x"></i>
           </a>
@@ -534,6 +555,7 @@
             href="https://www.linkedin.com/in/lprfernandes/"
             class="footer__social-link"
             target="_blank"
+            aria-label="Linkedin"
           >
             <i class="fa-brands fa-linkedin fa-3x"></i>
           </a>

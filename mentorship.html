@@ -15,7 +15,11 @@
     <title>Freelance Backend Developer | Luis Fernandes</title>
   </head>
   <body>
-    <nav class="navbar navbar--scroll">
+    <nav
+      class="navbar navbar--scroll"
+      role="navigation"
+      aria-label="Main navigation"
+    >
       <div class="navbar__container container">
         <!-- Logo -->
         <div class="navbar__logo">
@@ -58,12 +62,20 @@
               >
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
+              <a
+                href="#"
+                class="navbar__menu-link--primary"
+                aria-label="Facebook"
+              >
                 <i class="fa-brands fa-facebook"></i>
               </a>
             </li>
             <li class="navbar__menu-item">
-              <a href="#" class="navbar__menu-link--primary">
+              <a
+                href="#"
+                class="navbar__menu-link--primary"
+                aria-label="Twitter"
+              >
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </li>
@@ -72,6 +84,7 @@
                 href="https://www.linkedin.com/in/lprfernandes/"
                 class="navbar__menu-link--primary"
                 target="_blank"
+                aria-label="Linkedin"
               >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
@@ -81,6 +94,7 @@
                 href="https://github.com/lprfernandes"
                 class="navbar__menu-link--primary"
                 target="_blank"
+                aria-label="Github"
               >
                 <i class="fa-brands fa-github"></i>
               </a>
@@ -152,219 +166,233 @@
       </div>
     </nav>
 
-    <!-- Inner Header -->
-    <header class="inner-header">
-      <div class="inner-header__container container">
-        <h1 class="inner-header__title">Details</h1>
-      </div>
-    </header>
-
-    <!-- Pricing -->
-    <section class="pricing">
-      <div class="pricing__container container">
-        <h2 class="pricing__title">Pricing Options</h2>
-        <div class="pricing__cards">
-          <!-- Card 1 -->
-          <div class="pricing__card">
-            <div class="pricing__card-box">
-              <h4 class="pricing__card-title">Starter Session</h4>
-              <h3 class="pricing__card-price">Free</h3>
-              <div class="pricing__card-body">
-                <ul class="pricing__card-list">
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    Perfect for a first contact or one-time doubt.
-                  </li>
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    One 15-minute Q&A session
-                  </li>
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    Intro guidance on learning path or career
-                  </li>
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    No commitment required
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="#" class="pricing__card-button btn">Get Started</a>
-          </div>
-          <!-- Card 2 -->
-          <div class="pricing__card">
-            <div class="pricing__card-box">
-              <h4 class="pricing__card-title">Developer Mentorship</h4>
-              <h3 class="pricing__card-price">€49 / session</h3>
-              <div class="pricing__card-body">
-                <ul class="pricing__card-list">
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    Ideal for developers seeking hands-on technical improvement.
-                  </li>
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    60-minute live 1:1 session
-                  </li>
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    Code review, debugging, or architecture feedback
-                  </li>
-                  <li class="pricing__card-item">
-                    <i class="fas fa-check"></i>
-                    Career & project advice
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="#" class="pricing__card-button btn">Book Now</a>
-          </div>
-          <!-- Card 3 -->
-          <div class="pricing__card">
-            <div class="pricing__card-box">
-              <h4 class="pricing__card-title">Ongoing Mentorship</h4>
-              <div class="pricing__card-top">
-                <h3 class="pricing__card-price">€119 / month</h3>
+    <main id="main-content" role="main">
+      <!-- Inner Header -->
+      <header class="inner-header">
+        <div class="inner-header__container container">
+          <h1 class="inner-header__title">Details</h1>
+        </div>
+      </header>
+      <!-- Pricing -->
+      <section class="pricing" aria-labelledby="pricing-title">
+        <div class="pricing__container container">
+          <h2 id="pricing-title" class="pricing__title">Pricing Options</h2>
+          <div class="pricing__cards">
+            <!-- Card 1 -->
+            <div class="pricing__card">
+              <div class="pricing__card-box">
+                <h4 class="pricing__card-title">Starter Session</h4>
+                <h3 class="pricing__card-price">Free</h3>
                 <div class="pricing__card-body">
                   <ul class="pricing__card-list">
                     <li class="pricing__card-item">
                       <i class="fas fa-check"></i>
-                      For committed professionals wanting long-term growth.
+                      Perfect for a first contact or one-time doubt.
                     </li>
                     <li class="pricing__card-item">
                       <i class="fas fa-check"></i>
-                      2x 60-minute sessions per month
+                      One 15-minute Q&A session
                     </li>
                     <li class="pricing__card-item">
                       <i class="fas fa-check"></i>
-                      Priority email support
+                      Intro guidance on learning path or career
                     </li>
                     <li class="pricing__card-item">
                       <i class="fas fa-check"></i>
-                      Access to private learning materials
+                      No commitment required
                     </li>
                   </ul>
                 </div>
               </div>
+              <a href="#" class="pricing__card-button btn">Get Started</a>
             </div>
-            <a href="#" class="pricing__card-button btn">Subscribe</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Pricing Notes -->
-    <section class="pricing-notes">
-      <div class="pricing-notes__container container">
-        <p class="pricing-notes__text">
-          Flexible scheduling – book sessions when it suits you.
-        </p>
-        <p class="pricing-notes__text">
-          All sessions are confidential and tailored to your needs.
-        </p>
-        <p class="pricing-notes__text">
-          Cancel or reschedule up to 24 hours in advance.
-        </p>
-      </div>
-    </section>
-
-    <!-- video -->
-    <section class="mentoring__video">
-      <h2 class="mentoring__section-title">
-        Watch an Intro to My Mentoring Approach
-      </h2>
-      <video controls width="100%" poster="images/mentoring-poster.png">
-        <source src="media/mentoring-intro.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-    </section>
-
-    <!-- audio -->
-    <section class="mentoring__audio">
-      <h2 class="mentoring__section-title">Listen to Client Feedback</h2>
-      <audio controls>
-        <source src="media/client-testimonial.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-    </section>
-
-    <!-- Details Features -->
-
-    <section class="details-features">
-      <div class="details-features__container container">
-        <h2 class="details-features__title"></h2>
-        <div class="details-features__list">
-          <!-- Item 1-->
-          <div class="details-features__list-item">
-            <i class="fas fa-rocket fa-4x"></i>
-            <div class="details-features__list-text">
-              <h3 class="details-features__list-title">Tailored Guidance</h3>
-              <p class="details-features__list-description">
-                Get personalized support based on your goals, skill level, and
-                tech stack. Every session is shaped to bring clarity and action.
-              </p>
+            <!-- Card 2 -->
+            <div class="pricing__card">
+              <div class="pricing__card-box">
+                <h4 class="pricing__card-title">Developer Mentorship</h4>
+                <h3 class="pricing__card-price">€49 / session</h3>
+                <div class="pricing__card-body">
+                  <ul class="pricing__card-list">
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      Ideal for developers seeking hands-on technical
+                      improvement.
+                    </li>
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      60-minute live 1:1 session
+                    </li>
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      Code review, debugging, or architecture feedback
+                    </li>
+                    <li class="pricing__card-item">
+                      <i class="fas fa-check"></i>
+                      Career & project advice
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a href="#" class="pricing__card-button btn">Book Now</a>
             </div>
-          </div>
-          <!-- Item 2-->
-          <div class="details-features__list-item">
-            <i class="fas fa-user fa-4x"></i>
-            <div class="details-features__list-text">
-              <h3 class="details-features__list-title">
-                Live Coding & Feedback
-              </h3>
-              <p class="details-features__list-description">
-                Work on real code together — from architecture to debugging —
-                and get actionable, professional feedback.
-              </p>
-            </div>
-          </div>
-          <!-- Item 3-->
-          <div class="details-features__list-item">
-            <i class="fas fa-code fa-4x"></i>
-            <div class="details-features__list-text">
-              <h3 class="details-features__list-title">
-                Practical & Tool-Focused
-              </h3>
-              <p class="details-features__list-description">
-                Learn best practices for .NET, C#, Git, APIs, and more.
-                Everything is rooted in real-world usage, not just theory.
-              </p>
-            </div>
-          </div>
-          <!-- Item 4-->
-          <div class="details-features__list-item">
-            <i class="fas fa-compass fa-4x"></i>
-            <div class="details-features__list-text">
-              <h3 class="details-features__list-title">
-                Skill Progression Planning
-              </h3>
-              <p class="details-features__list-description">
-                Get a custom learning roadmap so you know exactly what to focus
-                on next and why.
-              </p>
-            </div>
-          </div>
-          <!-- Item 5-->
-          <div class="details-features__list-item">
-            <i class="fas fa-chart-pie fa-4x"></i>
-            <div class="details-features__list-text">
-              <h3 class="details-features__list-title">
-                Career & Project Advice
-              </h3>
-              <p class="details-features__list-description">
-                Whether it’s preparing for interviews or growing your
-                freelance/employee role, you'll receive honest and
-                experience-based input.
-              </p>
+            <!-- Card 3 -->
+            <div class="pricing__card">
+              <div class="pricing__card-box">
+                <h4 class="pricing__card-title">Ongoing Mentorship</h4>
+                <div class="pricing__card-top">
+                  <h3 class="pricing__card-price">€119 / month</h3>
+                  <div class="pricing__card-body">
+                    <ul class="pricing__card-list">
+                      <li class="pricing__card-item">
+                        <i class="fas fa-check"></i>
+                        For committed professionals wanting long-term growth.
+                      </li>
+                      <li class="pricing__card-item">
+                        <i class="fas fa-check"></i>
+                        2x 60-minute sessions per month
+                      </li>
+                      <li class="pricing__card-item">
+                        <i class="fas fa-check"></i>
+                        Priority email support
+                      </li>
+                      <li class="pricing__card-item">
+                        <i class="fas fa-check"></i>
+                        Access to private learning materials
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="pricing__card-button btn">Subscribe</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
+      <!-- Pricing Notes -->
+      <section class="pricing-notes">
+        <div class="pricing-notes__container container">
+          <p class="pricing-notes__text">
+            Flexible scheduling – book sessions when it suits you.
+          </p>
+          <p class="pricing-notes__text">
+            All sessions are confidential and tailored to your needs.
+          </p>
+          <p class="pricing-notes__text">
+            Cancel or reschedule up to 24 hours in advance.
+          </p>
+        </div>
+      </section>
+
+      <!-- video -->
+      <section class="mentoring__video" aria-labelledby="video-title">
+        <h2 id="video-title" class="mentoring__section-title">
+          Watch an Intro to My Mentoring Approach
+        </h2>
+        <video
+          controls
+          aria-label="Mentoring Introduction Video"
+          width="100%"
+          poster="images/mentoring-poster.png"
+        >
+          <source src="media/mentoring-intro.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+      <!-- audio -->
+      <section class="mentoring__audio" aria-labelledby="audio-title">
+        <h2 id="audio-title" class="mentoring__section-title">
+          Listen to Client Feedback
+        </h2>
+        <audio controls aria-label="Client Testimonial Audio">
+          <source src="media/client-testimonial.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </section>
+
+      <!-- Details Features -->
+
+      <section
+        class="details-features"
+        aria-labelledby="details-features-title"
+      >
+        <div class="details-features__container container">
+          <h2 id="details-features-title" class="details-features__title">
+            Service Features
+          </h2>
+          <div class="details-features__list">
+            <!-- Item 1-->
+            <div class="details-features__list-item">
+              <i class="fas fa-rocket fa-4x"></i>
+              <div class="details-features__list-text">
+                <h3 class="details-features__list-title">Tailored Guidance</h3>
+                <p class="details-features__list-description">
+                  Get personalized support based on your goals, skill level, and
+                  tech stack. Every session is shaped to bring clarity and
+                  action.
+                </p>
+              </div>
+            </div>
+            <!-- Item 2-->
+            <div class="details-features__list-item">
+              <i class="fas fa-user fa-4x"></i>
+              <div class="details-features__list-text">
+                <h3 class="details-features__list-title">
+                  Live Coding & Feedback
+                </h3>
+                <p class="details-features__list-description">
+                  Work on real code together — from architecture to debugging —
+                  and get actionable, professional feedback.
+                </p>
+              </div>
+            </div>
+            <!-- Item 3-->
+            <div class="details-features__list-item">
+              <i class="fas fa-code fa-4x"></i>
+              <div class="details-features__list-text">
+                <h3 class="details-features__list-title">
+                  Practical & Tool-Focused
+                </h3>
+                <p class="details-features__list-description">
+                  Learn best practices for .NET, C#, Git, APIs, and more.
+                  Everything is rooted in real-world usage, not just theory.
+                </p>
+              </div>
+            </div>
+            <!-- Item 4-->
+            <div class="details-features__list-item">
+              <i class="fas fa-compass fa-4x"></i>
+              <div class="details-features__list-text">
+                <h3 class="details-features__list-title">
+                  Skill Progression Planning
+                </h3>
+                <p class="details-features__list-description">
+                  Get a custom learning roadmap so you know exactly what to
+                  focus on next and why.
+                </p>
+              </div>
+            </div>
+            <!-- Item 5-->
+            <div class="details-features__list-item">
+              <i class="fas fa-chart-pie fa-4x"></i>
+              <div class="details-features__list-text">
+                <h3 class="details-features__list-title">
+                  Career & Project Advice
+                </h3>
+                <p class="details-features__list-description">
+                  Whether it’s preparing for interviews or growing your
+                  freelance/employee role, you'll receive honest and
+                  experience-based input.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo">
       <div class="footer__container container">
         <div class="footer__about">
           <h4 class="footer__title">About me</h4>
@@ -407,16 +435,17 @@
           </ul>
         </div>
         <div class="footer__social">
-          <a href="#" class="footer__social-link">
+          <a href="#" class="footer__social-link" aria-label="Facebook">
             <i class="fa-brands fa-facebook fa-3x"></i>
           </a>
-          <a href="#" class="footer__social-link">
+          <a href="#" class="footer__social-link" aria-label="Twitter">
             <i class="fa-brands fa-twitter fa-3x"></i>
           </a>
           <a
             href="https://github.com/lprfernandes"
             class="footer__social-link"
             target="_blank"
+            aria-label="Github"
           >
             <i class="fa-brands fa-github fa-3x"></i>
           </a>
@@ -424,6 +453,7 @@
             href="https://www.linkedin.com/in/lprfernandes/"
             class="footer__social-link"
             target="_blank"
+            aria-label="Linkedin"
           >
             <i class="fa-brands fa-linkedin fa-3x"></i>
           </a>
