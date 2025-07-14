@@ -1,3 +1,10 @@
+/* Import Google Fonts while still having a unique external stylesheet*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Import font awesome icons while still having a unique external stylesheet*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+
 *,
 *:before,
 *:after {
@@ -130,6 +137,7 @@ img {
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease-in-out ;
+    display: none;
 }
 
 .navbar__mobile-menu-list {
@@ -140,14 +148,15 @@ img {
 }
 
 
-.navbar__mobile-menu-items {
-    transform: translateX(100%);
-}
 
 .navbar__mobile-menu-items.active {
     transform: translateX(0);
 }
 
+/* Show menu when checkbox is checked */
+#menu-toggle:checked + .navbar__mobile-menu-toggle + .navbar__mobile-menu-items {
+  display: block;
+}
 
 /* Hero */
 .hero {
@@ -716,6 +725,17 @@ img {
     
     .navbar__mobile-menu {
         display: block;
+    }
+
+    .navbar__mobile-menu-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 2rem;
+    }
+
+    .navbar__mobile-menu-items {
+        background: var(--secondary-color);
+        padding: 1rem;
     }
     
     /* testimonials */
